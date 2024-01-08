@@ -1,0 +1,53 @@
+{
+  "name": "supermap-cesium",
+  "version": "11.1.1",
+  "description": "CesiumJS is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin.",
+  "homepage": "http://support.supermap.com.cn/",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "Cesium GS, Inc.",
+    "url": "https://cesium.com"
+  },
+  "contributors": [
+    {
+      "name": "CesiumJS community",
+      "url": "https://github.com/CesiumGS/cesium/blob/main/CONTRIBUTORS.md"
+    }
+  ],
+  "keywords": [
+    "3D",
+    "webgl",
+    "geospatial",
+    "map",
+    "globe"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CesiumGS/cesium.git"
+  },
+  "bugs": {
+    "url": "",
+    "email": ""
+  },
+  "main": "Build/Cesium/Cesium.js",
+  "types": "Build/Cesium/Cesium-es6.d.ts",
+  "files": [
+    "Build/Cesium/",
+    "Build/Cesium/Cesium-es6.d.ts"
+  ],
+  "type": "module",
+  "sideEffects": [
+    "./Source/ThirdParty/**/*",
+    "./Source/Widgets/**/*.css",
+    "./Source/Workers/*",
+    "./Specs/**/*"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
